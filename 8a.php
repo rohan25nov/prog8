@@ -21,6 +21,7 @@
             $res=$op1/$op2;
             break;
     }
+    echo "";
     echo "<h1>".$op1.$operator.$op2."=".$res."</h1>";
     ?>
 </body>
