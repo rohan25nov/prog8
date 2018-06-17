@@ -15,9 +15,7 @@
             break;
         case '*':$res=$op1*$op2;
             break;
-        case '/':if($op2==0)
-            $res=0;
-        else
+        case '/':
             $res=$op1/$op2;
             break;
     }
