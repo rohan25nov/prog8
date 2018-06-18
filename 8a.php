@@ -4,7 +4,9 @@
 </head>
 <body>
     <?php
-    function demo(){}
+    function demo(){
+        echo "hello";
+    }
     $op1=$_POST['op1'];
     $op2=$_POST['op2'];
     $operator=$_POST['operator'];
